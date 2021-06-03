@@ -1,0 +1,53 @@
+body {
+    font-family: 'PT Serif';
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+h2 {
+    color: #98acf8;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+span {
+    color: #b088f9;
+}
+
+.bullet {
+    color: #da9ff9;
+}
+
+/* Contact Section */
+
+.contacts {
+    background-color: #bedcfa;
+    padding: 5% 15% 0%;
+}
+
+.profile_image {
+    width: 40%;
+    padding-bottom: 7%;
+}
+
+/* Information Section */
+
+.white-color {
+    padding: 3% 15% 5%;
+}
+
+.info {
+    table-layout: auto;
+}
