@@ -2,6 +2,7 @@ body {
     font-family: 'PT Serif';
     font-size: 1rem;
     font-weight: 400;
+    line-height: 1.2;
 }
 
 h1 {
@@ -17,6 +18,10 @@ h2 {
     line-height: 2;
 }
 
+h2:hover {
+    color: #6683f7;
+}
+
 h3 {
     font-size: 1.5rem;
     font-weight: 700;
@@ -26,6 +31,10 @@ span {
     color: #b088f9;
 }
 
+a {
+    color: #000;
+}
+
 .bullet {
     color: #da9ff9;
 }
@@ -33,13 +42,20 @@ span {
 /* Contact Section */
 
 .contacts {
-    background-color: #bedcfa;
+    background-attachment: fixed;
+    background-image: linear-gradient(#ffffffda, #9fb4f9b0), url(images/sky_bg.jpg);
+    background-size: cover;
+    background-position: center;
     padding: 5% 15% 0%;
 }
 
 .profile_image {
     width: 40%;
     padding-bottom: 7%;
+}
+
+.contacts h2 {
+    color: #000;
 }
 
 /* Information Section */
@@ -51,3 +67,5 @@ span {
 .info {
     table-layout: auto;
 }
+
+
